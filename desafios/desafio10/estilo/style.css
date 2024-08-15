@@ -103,7 +103,6 @@ main {
     margin: auto;
     background-color: white;
     padding: 20px;
-
 }
 
 main h1 {
@@ -153,6 +152,10 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+img {
+    width: 100%;
 }
 
 div.video {
