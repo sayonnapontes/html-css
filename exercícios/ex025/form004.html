@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fORMULÁRIO</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="get" autocomplete="on">
 <fieldset>
     <legend>
         Dados pessoais
@@ -25,7 +31,7 @@
     
         <p>
             <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx) xxxx-xxxx">
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">
         </p>
 </fieldset>
     <!--Estudas mais sobre RegEx-->
@@ -34,6 +40,8 @@
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
+    
+</form>
     
 </body>
 </html>
